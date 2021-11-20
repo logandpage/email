@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 20;
+    box-sizing: border-box;
+    background-color: #ffff;
+    font-family: "Montserrat";
+  }
+  
+  /*Header*/
+  /* header { */
+    /* background-color: #004e71; */
+  /* } */
+
+  header img {
+    display: center;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Hero */
+  .hero {
+    background-image: url(images/chefs.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  /* Coupon */
+  #coupon {
+      text-align: center;
+      padding: 40px;
+      /* background-color: #7ed957; */
+  }
+
+  #coupon h2 {
+      font-size: 100px;
+      font-weight: bolder;
+  }
+
+  .c {
+      font-size: 70px;
+  }
+
+  #coupon h3 {
+      font-size: 80px;
+      font-weight: bold;
+  }
+
+  /* body */
+  #body {
+      padding: 35px;
+  }
+
+  #body div img {
+      height: 400px;
+      padding: 20px;
+  }
+
+  p {
+      font-size: 30px;
+      padding: 0px 20px;
+      text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    background-color: var(--main-color);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: var(--font-color);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer h2 {
+    padding: 5%;
+    /* color: var(--secondary-color); */
+    font-size: 45px;
+    /* background-color: var(--main-color); */
+  }
+  
+  
+  /*Media Queries*/
+  @media screen and (max-width: 1180px){
+    header {
+      padding: 20px;
+    }
+    
+    header h1 {
+      font-weight: bolder;
+      font-size: 55px;
+      margin: 0;
+      font-family: "Montserrat";
+      color: var(--font-color)
+    }
+    
+    header a {
+      text-decoration: none;
+      color: var(--font-color);
+      font-weight: bolder;
+    }
+    
+    header nav ul li {
+      display: inline;
+      font-family: "Montserrat";
+    }
+  
+    header nav ul li a {
+      margin: 20px;
+      font-size: 18px;;
+    }
+  
+    .contact {
+      display: inline;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 900px){
+    header {
+      padding: 20px;
+    }
+    
+    header h1 {
+      font-weight: bolder;
+      font-size: 35px;
+      margin: 0;
+      font-family: "Montserrat";
+      color: var(--font-color)
+    }
+    
+    header nav ul li {
+      display: inline;
+      font-family: "Montserrat";
+    }
+  
+    header nav ul li a {
+      margin: 20px;
+      font-size: 13px;;
+    }
+  
+    .hero {
+      height: 0px;
+    }
+  }
